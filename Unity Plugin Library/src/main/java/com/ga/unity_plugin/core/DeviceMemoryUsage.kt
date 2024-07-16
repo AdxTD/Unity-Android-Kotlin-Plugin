@@ -3,7 +3,6 @@ package com.ga.unity_plugin.core
 import android.app.ActivityManager
 import android.content.Context
 import android.os.Debug
-import com.ga.unity_plugin.JNIInterface
 
 // Provides current memory usage (RAM) for the whole system and of
 // the application,
