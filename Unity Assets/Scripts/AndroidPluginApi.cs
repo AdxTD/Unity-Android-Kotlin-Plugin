@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+// C# wrapper to the aar Android Kotlin Plugin
 public class AndroidPluginApi
 {
-    private static AndroidJavaClass unityPlayer;
-    private static AndroidJavaObject activity;
-    private static AndroidJavaClass jniInterface;
+    private static AndroidJavaClass unityPlayer; // to get current activity
+    private static AndroidJavaObject activity; // to be passed as the context
+    private static AndroidJavaClass jniInterface; // to interface native library public api class
 
     public static void Init()
     {
